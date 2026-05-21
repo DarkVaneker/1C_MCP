@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="54c1ac88-5fba-49ab-bb72-ac0e8a8b35b2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.mcp_СтатусыПроверкиКода" category="Ref">
+				<xr:TypeId>fc2e37d3-f16d-42fd-8e79-2d5ccf5c50a4</xr:TypeId>
+				<xr:ValueId>97391733-5b9d-48d7-b898-d48a9caf4abe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.mcp_СтатусыПроверкиКода" category="Manager">
+				<xr:TypeId>0eb1ba3f-21d5-4428-aa12-a82c71ce2907</xr:TypeId>
+				<xr:ValueId>da338adc-38a6-40db-8ca9-4d9984a98366</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.mcp_СтатусыПроверкиКода" category="List">
+				<xr:TypeId>54c950f9-5f7d-4477-92db-4039d8a719d2</xr:TypeId>
+				<xr:ValueId>3dabf21d-9c70-4481-91f8-1dae14846a36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>mcp_СтатусыПроверкиКода</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru1</v8:lang>
+					<v8:content>Mcp статусы проверки кода</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0144bf1c-b8ad-437f-a7de-bb3dac59d860">
+				<Properties>
+					<Name>Ожидает</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Ожидает</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="86c24ab6-045a-4fe4-abb1-144e898601f7">
+				<Properties>
+					<Name>Обработан</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Обработан</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
